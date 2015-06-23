@@ -1,0 +1,52 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+
+    "plugins": [
+        "backbone"
+    ],
+
+    "rules" : {
+        "camelcase"             : 0,
+        "complexity"            : [1, 7],
+        "consistent-return"     : 1,
+        "curly"                 : [2, "multi-line"],
+        "quotes"                : "single",
+        "max-depth"             : [1, 2],
+        "max-len"               : [1, 80],
+        "max-len"               : [2, 120],
+        "max-params"            : [1, 2],
+        "max-params"            : [2, 3],
+        "max-nested-callbacks"  : [2, 3],
+        "no-inline-comments"    : 2,
+        "no-multi-spaces"       : [1, {
+            "exceptions": {
+                "VariableDeclarator": true,
+                "AssignmentExpression" : true
+            }
+        }],
+        "no-underscore-dangle"  : 0,
+        "no-redeclare"          : 2,
+        "no-undef"              : 1,
+
+        "no-multi-spaces"       : [1, {
+            "exceptions": {
+                "VariableDeclarator": true,
+                "AssignmentExpression" : true,
+                "Identifier" : true
+            }
+        }],
+
+        "key-spacing"           : [2, {
+            "align": "colon" ,
+            "beforeColon": false,
+            "afterColon": true
+        }],
+
+        "quotes"                : 0,
+        "vars-on-top"           : 1
+    }
+}
